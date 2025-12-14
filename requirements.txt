@@ -1,0 +1,30 @@
+# Vector Database
+weaviate-client
+
+# ML & Embeddings  
+sentence-transformers
+torch
+transformers
+
+# LLM Integration
+tiktoken
+requests
+
+# Web Scraping & Crawling
+crawl4ai
+
+# Document Processing
+docling
+docling-core
+
+# Web Interface
+streamlit
+
+# Utilities
+python-dotenv
+tqdm
+chardet
+pathlib2
+
+# Development
+ipython

@@ -1,0 +1,100 @@
+{
+  "total_queries": 4060,
+  "correct_retrievals": 1773,
+  "accuracy": 0.4366995073891626,
+  "mrr": 0.268440749863164,
+  "precision_at_5": 0.09522167487684498,
+  "failed_count": 2287,
+  "failed_queries": [
+    {
+      "query": "What is the IFSC code for MANIT Bhopal's bank account?",
+      "expected": "d959371bbed5",
+      "got": [
+        "86c0d5653520",
+        "db16b1f0898c",
+        "057860564cd4"
+      ]
+    },
+    {
+      "query": "How should one specify the purpose of a fund transfer to MANIT Bhopal?",
+      "expected": "d959371bbed5",
+      "got": [
+        "db16b1f0898c",
+        "17b7b7698a1f",
+        "17b7b7698a1f"
+      ]
+    },
+    {
+      "query": "What is the phone number of the Assistant Registrar (A/cs) at MANIT Bhopal?",
+      "expected": "d959371bbed5",
+      "got": [
+        "8de0e8580558",
+        "f733f5cd6bee",
+        "9e1d08a899d5"
+      ]
+    },
+    {
+      "query": "What is the processing time for issuing a transcript?",
+      "expected": "a3f2004e236b",
+      "got": [
+        "b93d69e4099f",
+        "62c15168f1f9",
+        "2062577e8f0e"
+      ]
+    },
+    {
+      "query": "What are the fees for obtaining five copies of transcripts?",
+      "expected": "a3f2004e236b",
+      "got": [
+        "1142be8f849a",
+        "b93d69e4099f",
+        "72c0a7ae6a26"
+      ]
+    },
+    {
+      "query": "What is the effective date of the fee structure outlined in this document?",
+      "expected": "743f17398c2b",
+      "got": [
+        "c3e942c2c672",
+        "67cbdf2f0d39",
+        "17b7b7698a1f"
+      ]
+    },
+    {
+      "query": "How does a student obtain a duplicate marksheet?",
+      "expected": "743f17398c2b",
+      "got": [
+        "a3f2004e236b",
+        "9cea0e2d2c38",
+        "2428030015e4"
+      ]
+    },
+    {
+      "query": "How many copies of a transcript are provided for the stated fee?",
+      "expected": "743f17398c2b",
+      "got": [
+        "b93d69e4099f",
+        "1142be8f849a",
+        "0f9de2f5914c"
+      ]
+    },
+    {
+      "query": "How do I apply for a transcript?",
+      "expected": "de6c655fa1e0",
+      "got": [
+        "b93d69e4099f",
+        "3267dfedc85d",
+        "b93d69e4099f"
+      ]
+    },
+    {
+      "query": "What documents are required to be submitted with the application form for a migration certificate?",
+      "expected": "de6c655fa1e0",
+      "got": [
+        "6f636d4575ee",
+        "a3f2004e236b",
+        "5c6e1dcacbe9"
+      ]
+    }
+  ]
+}
