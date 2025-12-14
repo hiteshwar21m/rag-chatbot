@@ -360,16 +360,3 @@ pip install -r requirements.txt --upgrade
 - Restart Weaviate: `docker-compose restart`
 
 ---
-
-## 📝 License
-
-Educational project for MANIT Bhopal.
-
----
-
-## 🙏 Acknowledgments
-
-- MANIT Bhopal for data source
-- Weaviate for vector database
-- OpenRouter for LLM access
-- Crawl4AI for web scraping
