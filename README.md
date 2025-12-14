@@ -196,6 +196,17 @@ docker ps
 
 ```powershell
 # === DATA COLLECTION (Time: ~2-3 days, mostly overnight) ===
+## Dataset (Required)
+
+The dataset is not stored in git due to size.
+
+### Download
+- Get `data.zip` from **Releases → Dataset v1**
+  https://github.com/hiteshwar21m/rag-chatbot/releases
+
+### Setup
+1. Download `data.zip`
+2. Extract it into the project root so you have:
 
 # Step 1: Scrape webpages (~30-60 min for 189 URLs)
 python src\scraping\scraper.py
