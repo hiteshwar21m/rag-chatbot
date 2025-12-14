@@ -212,7 +212,6 @@ The dataset is not stored in git due to size.
 python src\scraping\scraper.py
 
 # Step 2: Download PDFs (~2 overnight runs: 12-24 hours total)
-# Note: pdf_downloader.py not fully integrated yet
 # python src\download\pdf_downloader.py
 
 # Step 3: Extract PDFs to Markdown using Docling (~3-4 overnight runs: 36-48 hours)
@@ -252,7 +251,7 @@ python src\embedding\upload_summaries.py
 streamlit run src\interface\chatbot.py
 ```
 
-**Recommended Path for New Users:**
+**Recommended Path:**
 
 Skip Steps 1-8 (data already exists) and just run:
 
@@ -275,7 +274,7 @@ All settings are in `config/.env`:
 - `OPENROUTER_API_KEY` - Your OpenRouter API key
 
 **LLM Settings:**
-- `LLM_MODEL` - Model name (default: google/gemini-2.0-flash-lite-001)
+- `LLM_MODEL` - Model name (default: google/gemini-2.0-flash-lite-001(paid model))
 - `LLM_TEMPERATURE` - Response randomness (default: 0.3)
 
 **Embedding Models:**
